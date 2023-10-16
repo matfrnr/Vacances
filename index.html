@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Vacances</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+
+  <div class="card">
+    <h2>Réserve tes vacances</h2>
+    <div><span id="nightPrice">46</span> € / nuit</div>
+
+    <label for="">Début</label>
+    <input id="start_date" type="date" required />
+    <label for="">Fin</label>
+    <input id="end_date" type="date" required />
+
+    <h3>Total : <span id="totalPerNight"></span> €</h3>
+    <button class="btn btn cyan accent-3" id="reloadPage">Valider</button>
+  </div>
+  <script src="./index.js"></script>
+
+</body>
+
+</html>
